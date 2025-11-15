@@ -1,0 +1,43 @@
+ul {
+  list-style-type: none;
+}
+
+.hero-title {
+  color: #b8b2b2;
+}
+
+.hero-title span {
+  color: #278524;
+}
+
+.button {
+  background-color: rgb(20, 212, 78);
+  border: 2px solid rgb(10, 163, 104);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(20, 212, 78, 0.26);
+}
+
+.button:focus {
+  background-color: rgba(20, 212, 78, 0.26);
+}
+
+.link {
+  color: rgb(116, 113, 113);
+}
+
+.link:hover {
+  color: chartreuse;
+}
+
+.advantages {
+  color: aliceblue;
+  background-color: #278524;
+}
+
+.section-title {
+  color: rgb(66, 52, 52);
+}
