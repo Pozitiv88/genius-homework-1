@@ -1,0 +1,80 @@
+.footer {
+  padding: 32px 0;
+  text-align: center;
+  @media screen and (min-width: $bp-tablet) {
+    text-align: left;
+  }
+}
+
+.footer__container {
+  display: flex;
+  gap: 20px;
+
+  @media screen and (min-width: $bp-tablet) {
+    flex-direction: row;
+    flex-basis: 50%;
+  }
+}
+
+.footer__nav,
+.footer__address {
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+
+  @media screen and (min-width: $bp-tablet) {
+    flex-direction: row;
+    flex-basis: 50%;
+  }
+}
+
+.footer-logo,
+.footer-menu {
+  flex-grow: 1;
+}
+
+.footer-logo {
+  margin-top: 100px;
+}
+
+.footer-contacts,
+.footer-info {
+  flex-grow: 1;
+}
+
+.footer {
+  position: relative;
+  background-image: url('../images/footer.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.address-icon {
+  fill: var(--color-primary-light);
+}
+
+.address-icon:hover {
+  fill: var(--color-brand-normal);
+}
+
+.adress-copy {
+  font-size: 14px;
+  color: white;
+}
+
+/* .footer::before {
+  position: absolute;
+  background-image: url(../images/zerno.png);
+  width: 180px;
+  height: 120px;
+  background-size: 100%;
+  content: '';
+  bottom: 0;
+} */
+
+/* .footer::after {
+  position: absolute;
+  background-image: url(../images/zenro2.png);
+  content: '';
+} */
